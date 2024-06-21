@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="download.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sen-Grocerry | Shopping Cart</title>
+</head>
+<body>
+    <body onload="myFunction()" style="margin:0;">
+
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+        
+     <div class="topnav" id="myTopnav">
+        <a href="./index.html">Home</a>
+        <a href="./product.html">Products</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./cart.html"  class="active">View your cart</a>
+    <img src="download1.jpg">
+        <a href="javascript:void(0);" class="icon" onclick="myfunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+        <div class="cart">
+            <h1>Your Cart items</h1>
+            <div class="item">
+                <h2>JBL Speaker</h2>
+                <img src="./th2.jpg">
+                <p>
+                   Price: 50,000LKR <br> Shiping duration: 1 month<br>No costs for shipping
+                </p>
+                <button class="buy">Buy Now</button><br>
+                <button class="delete">Remove this</button>
+            </div>
+            <div class="item">
+                <h2>HP Laptop</h2>
+                <img src="./th4.jpg">
+                <p>
+                    Price: 300,000LKR <br> Shiping duration: 1 month<br>No costs for shipping
+                 </p>
+                <button class="buy">Buy Now</button><br>
+                <button class="delete">Remove this</button>
+            </div>
+        </div>
+        <footer>
+            <h1>Copyright reserved for Senura Perera @ 2023</h1>
+        </footer>
+        </div>
+</body>
+<script src="script.js"></script>
+<script>
+      var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+};
+</script>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/x-icon" href="download.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sen-Grocerry | Home</title>
+</head>
+
+<body>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+  <div class="topnav" id="myTopnav">
+    <a href="./" class="active">Home</a>
+    <a href="./product.html">Products</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./cart.html">View your cart</a>
+    <img src="download1.jpg">
+    <a href="javascript:void(0);" class="icon" onclick="myfunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <div class="home">
+    <h1>Welcome to Sen-Grocerry</h1>
+    <h3>Best Elctronic supplier in Sri Lanka</h3>
+    <img src="download1.jpg"><br><br>
+    <button><a href="./product.html">Buy Our Products</a></button>
+  </div>
+  <footer>
+    <h1>Copyright reserved for Senura Perera @ 2023</h1>
+  </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+<script>
+  var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+};
+</script>
+</html>

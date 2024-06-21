@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Sen-Grocerry | Products</title>
+  <link rel="icon" type="image/x-icon" href="download.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    
+  <div class="topnav" id="myTopnav">
+    <a href="./index.html">Home</a>
+    <a href="./product.html" class="active">Products</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./cart.html">View your cart</a>
+    <img src="download1.jpg">
+    <a href="javascript:void(0);" class="icon" onclick="myfunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="products">
+    <div class="product">
+      <img src="./th2.jpg">
+      <h1>HP laptop</h1>
+      <p>HP laptops are renowned for their blend of performance, reliability, and sleek design. They cater to a wide range of users, from students to professionals, offering models that span from budget-friendly options to high-performance machines tailored for intensive tasks like gaming or graphic design. With a reputation for robust build quality and innovative features, HP laptops typically come equipped with the latest hardware, vibrant displays, and efficient battery life, making them a popular choice in the laptop market.</p>
+      <button id="myBtn">View</button>
+    </div>
+    <div class="sen-authanticationforcopyrighting">
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="./th2.jpg">
+          <h1>HP Laptop</h1>
+          <p>HP laptops are renowned for their blend of performance, reliability, and sleek design. They cater to a wide range of users, from students to professionals, offering models that span from budget-friendly options to high-performance machines tailored for intensive tasks like gaming or graphic design. With a reputation for robust build quality and innovative features, HP laptops typically come equipped with the latest hardware, vibrant displays, and efficient battery life, making them a popular choice in the laptop market.</p>
+          <h4>Price : LKR 20,000</h4>
+          <a href="./cart.html"></a><button>Add to cart</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <img src="./th3.jpg">
+      <h1>ASUS Keyboad</h1>
+      <p>ASUS keyboards are known for their durability, ergonomic design, and responsive performance. Designed with both gamers and everyday users in mind, ASUS keyboards often feature customizable RGB lighting, tactile switches for enhanced typing or gaming experience, and durable construction to withstand prolonged use. Whether wired or wireless, ASUS keyboards offer a range of models to suit different preferences and needs, making them a popular choice among enthusiasts seeking reliability and performance in their typing or gaming setups.</p>
+      <button id="myBtn3">View</button>
+      <div id="myModal3" class="modal">
+        <div class="modal-content">
+          <span class="close3">&times;</span>
+          <img src="./th3.jpg">
+          <h1>ASUS Keyboard</h1>
+          <p>ASUS keyboards are known for their durability, ergonomic design, and responsive performance. Designed with both gamers and everyday users in mind, ASUS keyboards often feature customizable RGB lighting, tactile switches for enhanced typing or gaming experience, and durable construction to withstand prolonged use. Whether wired or wireless, ASUS keyboards offer a range of models to suit different preferences and needs, making them a popular choice among enthusiasts seeking reliability and performance in their typing or gaming setups.</p>
+        <h4>Price : LKR 20,000</h4>
+        <a href="./cart.html"></a><button>Add to cart</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <img src="./th4.jpg">
+      <h1>JBL Speakers</h1>
+      <p>JBL speakers are known for their powerful sound quality, durability, and versatility across different environments. Whether you're looking for portable Bluetooth speakers for outdoor adventures or high-fidelity home audio systems, JBL offers a wide range of products to suit various needs. Their speakers are celebrated for clear and impactful bass, balanced mids, and crisp highs, making them popular among music lovers, party-goers, and professionals alike. JBL's commitment to innovation ensures that their speakers often feature advanced technologies such as waterproofing, wireless connectivity, and long-lasting battery life, catering to modern audio demands with style and reliability.</p>
+      <button id="myBtn2">View</button>
+      <div id="myModal2" class="modal">
+        <div class="modal-content">
+          <span class="close2">&times;</span>
+          <img src="./th4.jpg">
+          <h1>JBL Speakers</h1>
+          <p>JBL speakers are known for their powerful sound quality, durability, and versatility across different environments. Whether you're looking for portable Bluetooth speakers for outdoor adventures or high-fidelity home audio systems, JBL offers a wide range of products to suit various needs. Their speakers are celebrated for clear and impactful bass, balanced mids, and crisp highs, making them popular among music lovers, party-goers, and professionals alike. JBL's commitment to innovation ensures that their speakers often feature advanced technologies such as waterproofing, wireless connectivity, and long-lasting battery life, catering to modern audio demands with style and reliability.</p>
+          <h4>Price : LKR 20,000</h4>
+          <a href="./cart.html"></a><button>Add to cart</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h1>Copyright reserved for Senura Perera @ 2023</h1>
+  </footer>
+  </div>
+</body>
+<script src="script.js"></script>
+<script>
+  var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+};
+
+</script>
+
+</html>
