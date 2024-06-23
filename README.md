@@ -12,4 +12,4 @@ Cart Page: Shopping with us is straightforward and secure, thanks to our dedicat
 
 Design and Development: Our website's design goes beyond aesthetics; it's optimized for performance and user experience. Responsive design ensures that the site functions flawlessly across all devices, from desktop computers to smartphones, while adhering to best practices in accessibility ensures inclusivity for all users.
 
-Than you
+Thank you
