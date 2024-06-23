@@ -12,4 +12,4 @@ Cart Page: Shopping with us is straightforward and secure, thanks to our dedicat
 
 Design and Development: Our website's design goes beyond aesthetics; it's optimized for performance and user experience. Responsive design ensures that the site functions flawlessly across all devices, from desktop computers to smartphones, while adhering to best practices in accessibility ensures inclusivity for all users.
 
-Performance and Security: Behind the scenes, our website is engineered for optimal performance and security. We prioritize fast loading times by minimizing file sizes and leveraging browser caching, enhancing both user satisfaction and search engine rankings. Robust security measures, including HTTPS encryption and data validation protocols, safeguard customer information and transactions.
+Than you
